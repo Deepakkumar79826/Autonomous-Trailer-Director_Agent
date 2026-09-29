@@ -1,0 +1,24 @@
+{
+  "family": {
+    "audience": "family",
+    "max_spoiler_level": 1,
+    "max_frightening_score": 0.4,
+    "allow_suggestive": false,
+    "require_accessible_subtitles": true
+  },
+  "young_adult": {
+    "audience": "young_adult",
+    "max_spoiler_level": 1,
+    "max_frightening_score": 0.7,
+    "allow_suggestive": false,
+    "require_accessible_subtitles": true
+  },
+  "dialect_region": {
+    "audience": "dialect-region viewers",
+    "max_spoiler_level": 1,
+    "max_frightening_score": 0.6,
+    "allow_suggestive": false,
+    "require_accessible_subtitles": true,
+    "avoid_dialect_stereotype": true
+  }
+}

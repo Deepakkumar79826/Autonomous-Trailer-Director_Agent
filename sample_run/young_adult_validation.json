@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "checked_rules": [
+    "rights_actor_asha",
+    "rights_actor_meera",
+    "rights_actor_ravi",
+    "rights_music_tension_01",
+    "source:scene_02",
+    "source:scene_03",
+    "source:scene_06",
+    "source:scene_08",
+    "young_adult_frightening_limit",
+    "young_adult_spoiler_limit",
+    "young_adult_subtitles_required",
+    "young_adult_suggestive_limit"
+  ]
+}

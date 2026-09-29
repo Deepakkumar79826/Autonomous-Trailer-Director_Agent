@@ -1,0 +1,123 @@
+[
+  {
+    "timestamp": "2026-09-29T08:50:29.939271+00:00",
+    "event": "music_rights_expired",
+    "audience_id": "family",
+    "affected_scenes": [
+      "00:02:14.000-00:03:20.000",
+      "00:01:08.000-00:02:14.000",
+      "00:08:24.000-00:09:42.000"
+    ],
+    "action": "replan_music",
+    "validation_status": "PASS"
+  },
+  {
+    "timestamp": "2026-09-29T09:02:33.607406+00:00",
+    "event": "pipeline_run",
+    "episode_id": "EP001",
+    "validation": {
+      "family": "PASS",
+      "young_adult": "PASS",
+      "dialect_region": "PASS"
+    }
+  },
+  {
+    "timestamp": "2026-09-29T09:13:05.298318+00:00",
+    "event": "pipeline_run",
+    "episode_id": "EP001",
+    "validation": {
+      "family": "PASS",
+      "young_adult": "PASS",
+      "dialect_region": "PASS"
+    }
+  },
+  {
+    "timestamp": "2026-09-29T09:13:26.620327+00:00",
+    "event": "music_rights_expired",
+    "audience_id": "family",
+    "affected_scenes": [
+      "00:02:14.000-00:03:20.000",
+      "00:01:08.000-00:02:14.000",
+      "00:08:24.000-00:09:42.000"
+    ],
+    "action": "replan_music",
+    "validation_status": "PASS"
+  },
+  {
+    "timestamp": "2026-09-29T09:52:34.354771+00:00",
+    "event": "pipeline_run",
+    "episode_id": "EP001",
+    "validation": {
+      "family": "PASS",
+      "young_adult": "PASS",
+      "dialect_region": "PASS"
+    }
+  },
+  {
+    "timestamp": "2026-09-29T09:52:44.310442+00:00",
+    "event": "music_rights_expired",
+    "audience_id": "family",
+    "affected_scenes": [
+      "00:02:14.000-00:03:20.000",
+      "00:01:08.000-00:02:14.000",
+      "00:08:24.000-00:09:42.000"
+    ],
+    "action": "replan_music",
+    "validation_status": "PASS"
+  },
+  {
+    "timestamp": "2026-09-29T10:04:05.763607+00:00",
+    "event": "pipeline_run",
+    "episode_id": "EP001",
+    "validation": {
+      "family": "PASS",
+      "young_adult": "PASS",
+      "dialect_region": "PASS"
+    }
+  },
+  {
+    "timestamp": "2026-09-29T10:10:57.065638+00:00",
+    "event": "pipeline_run",
+    "episode_id": "EP001",
+    "validation": {
+      "family": "PASS",
+      "young_adult": "PASS",
+      "dialect_region": "PASS"
+    }
+  },
+  {
+    "timestamp": "2026-09-29T10:15:44.942993+00:00",
+    "event": "pipeline_run",
+    "episode_id": "EP001",
+    "validation": {
+      "family": "PASS",
+      "young_adult": "PASS",
+      "dialect_region": "PASS"
+    }
+  },
+  {
+    "timestamp": "2026-09-29T10:22:15.167794+00:00",
+    "event": "pipeline_run",
+    "episode_id": "EP001",
+    "validation": {
+      "family": "PASS",
+      "young_adult": "PASS",
+      "dialect_region": "PASS"
+    },
+    "estimated_processing_cost": 0.22,
+    "budget_limit": 2.0,
+    "within_budget": true
+  },
+  {
+    "timestamp": "2026-09-29T10:26:03.321127+00:00",
+    "event": "music_rights_expired",
+    "audience_id": "family",
+    "affected_scenes": [
+      "00:02:14.000-00:03:20.000",
+      "00:01:08.000-00:02:14.000",
+      "00:08:24.000-00:09:42.000"
+    ],
+    "action": "replan_music",
+    "validation_status": "PASS"
+  }
+]

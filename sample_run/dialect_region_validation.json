@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "checked_rules": [
+    "dialect_region_dialect_respect",
+    "dialect_region_frightening_limit",
+    "dialect_region_spoiler_limit",
+    "dialect_region_subtitles_required",
+    "dialect_region_suggestive_limit",
+    "rights_actor_asha",
+    "rights_actor_meera",
+    "rights_actor_ravi",
+    "rights_music_warm_01",
+    "source:scene_02",
+    "source:scene_03",
+    "source:scene_08"
+  ]
+}

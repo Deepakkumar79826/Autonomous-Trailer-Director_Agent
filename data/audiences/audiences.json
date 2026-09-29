@@ -1,0 +1,29 @@
+[
+  {
+    "audience_id": "family",
+    "name": "Family viewers",
+    "goal": "Communicate warmth, stakes and broad entertainment value.",
+    "care": [
+      "Avoid frightening context",
+      "Avoid suggestive context"
+    ]
+  },
+  {
+    "audience_id": "young_adult",
+    "name": "Young adult viewers",
+    "goal": "Highlight pace, humour, identity and character conflict.",
+    "care": [
+      "Do not reveal the central twist",
+      "Do not use misleading intensity"
+    ]
+  },
+  {
+    "audience_id": "dialect_region",
+    "name": "Dialect-region viewers",
+    "goal": "Show language familiarity and cultural context.",
+    "care": [
+      "Do not stereotype",
+      "Do not treat dialect as a comic device"
+    ]
+  }
+]

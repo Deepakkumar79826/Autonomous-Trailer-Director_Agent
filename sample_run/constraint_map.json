@@ -1,0 +1,351 @@
+{
+  "episode_id": "EP001",
+  "generated_for_date": "2026-09-29",
+  "rules": [
+    {
+      "constraint_id": "family_spoiler_limit",
+      "category": "spoiler",
+      "rule_type": "max_spoiler_level",
+      "description": "Do not use scenes above spoiler level 1.",
+      "severity": "error",
+      "audience_id": "family",
+      "scene_ids": [],
+      "actor_ids": [],
+      "music_asset_ids": [],
+      "territories": [],
+      "effective_from": null,
+      "expires_at": null,
+      "evidence": [
+        "data/policies/policies.json:family.max_spoiler_level"
+      ]
+    },
+    {
+      "constraint_id": "family_frightening_limit",
+      "category": "safety",
+      "rule_type": "max_frightening_score",
+      "description": "Do not use scenes with frightening score above 0.4.",
+      "severity": "error",
+      "audience_id": "family",
+      "scene_ids": [],
+      "actor_ids": [],
+      "music_asset_ids": [],
+      "territories": [],
+      "effective_from": null,
+      "expires_at": null,
+      "evidence": [
+        "data/policies/policies.json:family.max_frightening_score"
+      ]
+    },
+    {
+      "constraint_id": "family_suggestive_limit",
+      "category": "safety",
+      "rule_type": "suggestive_allowed",
+      "description": "Suggestive content is not permitted.",
+      "severity": "error",
+      "audience_id": "family",
+      "scene_ids": [],
+      "actor_ids": [],
+      "music_asset_ids": [],
+      "territories": [],
+      "effective_from": null,
+      "expires_at": null,
+      "evidence": [
+        "data/policies/policies.json:family.allow_suggestive"
+      ]
+    },
+    {
+      "constraint_id": "family_subtitles_required",
+      "category": "accessibility",
+      "rule_type": "accessible_subtitles_required",
+      "description": "Accessible subtitles are required for the trailer.",
+      "severity": "error",
+      "audience_id": "family",
+      "scene_ids": [],
+      "actor_ids": [],
+      "music_asset_ids": [],
+      "territories": [],
+      "effective_from": null,
+      "expires_at": null,
+      "evidence": [
+        "data/policies/policies.json:family.require_accessible_subtitles"
+      ]
+    },
+    {
+      "constraint_id": "young_adult_spoiler_limit",
+      "category": "spoiler",
+      "rule_type": "max_spoiler_level",
+      "description": "Do not use scenes above spoiler level 1.",
+      "severity": "error",
+      "audience_id": "young_adult",
+      "scene_ids": [],
+      "actor_ids": [],
+      "music_asset_ids": [],
+      "territories": [],
+      "effective_from": null,
+      "expires_at": null,
+      "evidence": [
+        "data/policies/policies.json:young_adult.max_spoiler_level"
+      ]
+    },
+    {
+      "constraint_id": "young_adult_frightening_limit",
+      "category": "safety",
+      "rule_type": "max_frightening_score",
+      "description": "Do not use scenes with frightening score above 0.7.",
+      "severity": "error",
+      "audience_id": "young_adult",
+      "scene_ids": [],
+      "actor_ids": [],
+      "music_asset_ids": [],
+      "territories": [],
+      "effective_from": null,
+      "expires_at": null,
+      "evidence": [
+        "data/policies/policies.json:young_adult.max_frightening_score"
+      ]
+    },
+    {
+      "constraint_id": "young_adult_suggestive_limit",
+      "category": "safety",
+      "rule_type": "suggestive_allowed",
+      "description": "Suggestive content is not permitted.",
+      "severity": "error",
+      "audience_id": "young_adult",
+      "scene_ids": [],
+      "actor_ids": [],
+      "music_asset_ids": [],
+      "territories": [],
+      "effective_from": null,
+      "expires_at": null,
+      "evidence": [
+        "data/policies/policies.json:young_adult.allow_suggestive"
+      ]
+    },
+    {
+      "constraint_id": "young_adult_subtitles_required",
+      "category": "accessibility",
+      "rule_type": "accessible_subtitles_required",
+      "description": "Accessible subtitles are required for the trailer.",
+      "severity": "error",
+      "audience_id": "young_adult",
+      "scene_ids": [],
+      "actor_ids": [],
+      "music_asset_ids": [],
+      "territories": [],
+      "effective_from": null,
+      "expires_at": null,
+      "evidence": [
+        "data/policies/policies.json:young_adult.require_accessible_subtitles"
+      ]
+    },
+    {
+      "constraint_id": "dialect_region_spoiler_limit",
+      "category": "spoiler",
+      "rule_type": "max_spoiler_level",
+      "description": "Do not use scenes above spoiler level 1.",
+      "severity": "error",
+      "audience_id": "dialect_region",
+      "scene_ids": [],
+      "actor_ids": [],
+      "music_asset_ids": [],
+      "territories": [],
+      "effective_from": null,
+      "expires_at": null,
+      "evidence": [
+        "data/policies/policies.json:dialect_region.max_spoiler_level"
+      ]
+    },
+    {
+      "constraint_id": "dialect_region_frightening_limit",
+      "category": "safety",
+      "rule_type": "max_frightening_score",
+      "description": "Do not use scenes with frightening score above 0.6.",
+      "severity": "error",
+      "audience_id": "dialect_region",
+      "scene_ids": [],
+      "actor_ids": [],
+      "music_asset_ids": [],
+      "territories": [],
+      "effective_from": null,
+      "expires_at": null,
+      "evidence": [
+        "data/policies/policies.json:dialect_region.max_frightening_score"
+      ]
+    },
+    {
+      "constraint_id": "dialect_region_suggestive_limit",
+      "category": "safety",
+      "rule_type": "suggestive_allowed",
+      "description": "Suggestive content is not permitted.",
+      "severity": "error",
+      "audience_id": "dialect_region",
+      "scene_ids": [],
+      "actor_ids": [],
+      "music_asset_ids": [],
+      "territories": [],
+      "effective_from": null,
+      "expires_at": null,
+      "evidence": [
+        "data/policies/policies.json:dialect_region.allow_suggestive"
+      ]
+    },
+    {
+      "constraint_id": "dialect_region_subtitles_required",
+      "category": "accessibility",
+      "rule_type": "accessible_subtitles_required",
+      "description": "Accessible subtitles are required for the trailer.",
+      "severity": "error",
+      "audience_id": "dialect_region",
+      "scene_ids": [],
+      "actor_ids": [],
+      "music_asset_ids": [],
+      "territories": [],
+      "effective_from": null,
+      "expires_at": null,
+      "evidence": [
+        "data/policies/policies.json:dialect_region.require_accessible_subtitles"
+      ]
+    },
+    {
+      "constraint_id": "dialect_region_dialect_respect",
+      "category": "cultural_respect",
+      "rule_type": "avoid_dialect_stereotype",
+      "description": "Do not stereotype the dialect or use it as a comic device.",
+      "severity": "error",
+      "audience_id": "dialect_region",
+      "scene_ids": [],
+      "actor_ids": [],
+      "music_asset_ids": [],
+      "territories": [],
+      "effective_from": null,
+      "expires_at": null,
+      "evidence": [
+        "data/policies/policies.json:dialect_region.avoid_dialect_stereotype"
+      ]
+    },
+    {
+      "constraint_id": "rights_actor_asha",
+      "category": "rights",
+      "rule_type": "actor_promotional_use",
+      "description": "Actor may appear in promotional material.",
+      "severity": "info",
+      "audience_id": null,
+      "scene_ids": [],
+      "actor_ids": [
+        "actor_asha"
+      ],
+      "music_asset_ids": [],
+      "territories": [
+        "IN"
+      ],
+      "effective_from": null,
+      "expires_at": null,
+      "evidence": [
+        "data/contracts/contracts.json:actors[actor_asha]"
+      ]
+    },
+    {
+      "constraint_id": "rights_actor_ravi",
+      "category": "rights",
+      "rule_type": "actor_promotional_use",
+      "description": "Actor may appear in promotional material.",
+      "severity": "info",
+      "audience_id": null,
+      "scene_ids": [],
+      "actor_ids": [
+        "actor_ravi"
+      ],
+      "music_asset_ids": [],
+      "territories": [
+        "IN"
+      ],
+      "effective_from": null,
+      "expires_at": null,
+      "evidence": [
+        "data/contracts/contracts.json:actors[actor_ravi]"
+      ]
+    },
+    {
+      "constraint_id": "rights_actor_meera",
+      "category": "rights",
+      "rule_type": "actor_promotional_use",
+      "description": "Actor may appear in promotional material.",
+      "severity": "info",
+      "audience_id": null,
+      "scene_ids": [],
+      "actor_ids": [
+        "actor_meera"
+      ],
+      "music_asset_ids": [],
+      "territories": [
+        "IN"
+      ],
+      "effective_from": null,
+      "expires_at": null,
+      "evidence": [
+        "data/contracts/contracts.json:actors[actor_meera]"
+      ]
+    },
+    {
+      "constraint_id": "rights_music_warm_01",
+      "category": "rights",
+      "rule_type": "music_promotional_use",
+      "description": "Music may be used in promotional material.",
+      "severity": "info",
+      "audience_id": null,
+      "scene_ids": [],
+      "actor_ids": [],
+      "music_asset_ids": [
+        "music_warm_01"
+      ],
+      "territories": [
+        "IN"
+      ],
+      "effective_from": null,
+      "expires_at": "2026-12-31",
+      "evidence": [
+        "data/contracts/contracts.json:music[music_warm_01]"
+      ]
+    },
+    {
+      "constraint_id": "rights_music_tension_01",
+      "category": "rights",
+      "rule_type": "music_promotional_use",
+      "description": "Music may be used in promotional material.",
+      "severity": "info",
+      "audience_id": null,
+      "scene_ids": [],
+      "actor_ids": [],
+      "music_asset_ids": [
+        "music_tension_01"
+      ],
+      "territories": [
+        "IN"
+      ],
+      "effective_from": null,
+      "expires_at": "2026-10-15",
+      "evidence": [
+        "data/contracts/contracts.json:music[music_tension_01]"
+      ]
+    },
+    {
+      "constraint_id": "rights_music_expired_demo",
+      "category": "rights",
+      "rule_type": "music_promotional_use",
+      "description": "Music must not be used in promotional material because promotional rights are unavailable or expired.",
+      "severity": "error",
+      "audience_id": null,
+      "scene_ids": [],
+      "actor_ids": [],
+      "music_asset_ids": [
+        "music_expired_demo"
+      ],
+      "territories": [],
+      "effective_from": null,
+      "expires_at": "2026-09-01",
+      "evidence": [
+        "data/contracts/contracts.json:music[music_expired_demo]"
+      ]
+    }
+  ]
+}

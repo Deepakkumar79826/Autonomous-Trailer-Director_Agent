@@ -1,0 +1,61 @@
+{
+  "episode_id": "EP001",
+  "tracks": [
+    {
+      "track_id": "standard_en",
+      "language": "en",
+      "dialect": "standard",
+      "lines": [
+        {
+          "start": "00:01:32.000",
+          "end": "00:01:38.000",
+          "scene_id": "scene_02",
+          "text": "Where did the old lantern go?"
+        },
+        {
+          "start": "00:02:36.000",
+          "end": "00:02:42.000",
+          "scene_id": "scene_03",
+          "text": "Maybe it decided to join the festival by itself."
+        },
+        {
+          "start": "00:06:12.000",
+          "end": "00:06:20.000",
+          "scene_id": "scene_06",
+          "text": "Why didn't you tell me the truth?"
+        },
+        {
+          "start": "00:08:46.000",
+          "end": "00:08:53.000",
+          "scene_id": "scene_08",
+          "text": "Let's light it together."
+        }
+      ]
+    },
+    {
+      "track_id": "regional_hi",
+      "language": "hi",
+      "dialect": "regional_demo",
+      "lines": [
+        {
+          "start": "00:01:32.000",
+          "end": "00:01:38.000",
+          "scene_id": "scene_02",
+          "text": "पुरानी लालटेन कहाँ गई?"
+        },
+        {
+          "start": "00:02:36.000",
+          "end": "00:02:42.000",
+          "scene_id": "scene_03",
+          "text": "शायद वह खुद ही मेले में चली गई।"
+        },
+        {
+          "start": "00:08:46.000",
+          "end": "00:08:53.000",
+          "scene_id": "scene_08",
+          "text": "चलो, इसे साथ में जलाते हैं।"
+        }
+      ]
+    }
+  ]
+}

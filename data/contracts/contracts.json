@@ -1,0 +1,49 @@
+{
+  "actors": [
+    {
+      "actor_id": "actor_asha",
+      "allowed_promotional_use": true,
+      "territories": [
+        "IN"
+      ]
+    },
+    {
+      "actor_id": "actor_ravi",
+      "allowed_promotional_use": true,
+      "territories": [
+        "IN"
+      ]
+    },
+    {
+      "actor_id": "actor_meera",
+      "allowed_promotional_use": true,
+      "territories": [
+        "IN"
+      ]
+    }
+  ],
+  "music": [
+    {
+      "asset_id": "music_warm_01",
+      "allowed_promotional_use": true,
+      "territories": [
+        "IN"
+      ],
+      "expires_at": "2026-12-31"
+    },
+    {
+      "asset_id": "music_tension_01",
+      "allowed_promotional_use": true,
+      "territories": [
+        "IN"
+      ],
+      "expires_at": "2026-10-15"
+    },
+    {
+      "asset_id": "music_expired_demo",
+      "allowed_promotional_use": false,
+      "territories": [],
+      "expires_at": "2026-09-01"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "autonomous-trailer-director"
+version = "0.1.0"
+description = "Agentic AI system for safe, rights-aware autonomous trailer planning"
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.8,<3",
+    "python-dotenv>=1.0,<2",
+    "typer>=0.12,<1",
+    "rich>=13.7,<14",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9"]
+
+[project.scripts]
+trailer-director = "trailer_director.main:app"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

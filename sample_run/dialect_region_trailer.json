@@ -1,0 +1,111 @@
+{
+  "trailer_id": "dialect_region_trailer",
+  "audience": "dialect_region",
+  "creative_brief": "Build a culturally respectful regional trailer using authentic language context, family relationships and community tradition without turning dialect identity into a stereotype.",
+  "duration_seconds": 210,
+  "audience_promise": "A familiar regional story grounded in authentic language, family bonds and community tradition.",
+  "emotional_journey": [
+    "familiarity",
+    "curiosity",
+    "identity",
+    "community",
+    "hope"
+  ],
+  "segments": [
+    {
+      "order": 1,
+      "source_in": "00:01:08.000",
+      "source_out": "00:02:14.000",
+      "video": "Asha notices that the old festival lantern is missing and asks Ravi whether he moved it.",
+      "transition": "fade_in",
+      "dialogue": null,
+      "subtitle": "पुरानी लालटेन कहाँ गई?",
+      "voice_over": null,
+      "text_card": null,
+      "music": "music_warm_01",
+      "audio": "Original dialogue + music_warm_01",
+      "reason": "Uses a direct, source-grounded mystery hook suitable for regional subtitles.",
+      "evidence": [
+        "data/episode/episode.json:scene_02",
+        "data/audiences/audiences.json:dialect_region",
+        "data/policies/policies.json:dialect_region",
+        "data/episode/subtitles.json:regional_hi"
+      ],
+      "risk_flags": []
+    },
+    {
+      "order": 2,
+      "source_in": "00:02:14.000",
+      "source_out": "00:03:20.000",
+      "video": "Ravi jokes that the lantern may have walked away, while Asha becomes increasingly suspicious.",
+      "transition": "cut",
+      "dialogue": null,
+      "subtitle": "शायद वह खुद ही मेले में चली गई।",
+      "voice_over": null,
+      "text_card": null,
+      "music": "music_warm_01",
+      "audio": "Original dialogue + music_warm_01",
+      "reason": "Preserves natural sibling humour without turning dialect into a joke.",
+      "evidence": [
+        "data/episode/episode.json:scene_03",
+        "data/audiences/audiences.json:dialect_region",
+        "data/policies/policies.json:dialect_region",
+        "data/episode/subtitles.json:regional_hi"
+      ],
+      "risk_flags": []
+    },
+    {
+      "order": 3,
+      "source_in": "00:08:24.000",
+      "source_out": "00:09:42.000",
+      "video": "The family returns to the festival and prepares to light the lantern together.",
+      "transition": "fade_out",
+      "dialogue": null,
+      "subtitle": "चलो, इसे साथ में जलाते हैं।",
+      "voice_over": null,
+      "text_card": null,
+      "music": "music_warm_01",
+      "audio": "Original dialogue + music_warm_01",
+      "reason": "Connects the story to community and shared tradition.",
+      "evidence": [
+        "data/episode/episode.json:scene_08",
+        "data/audiences/audiences.json:dialect_region",
+        "data/policies/policies.json:dialect_region",
+        "data/episode/subtitles.json:regional_hi"
+      ],
+      "risk_flags": []
+    }
+  ],
+  "validation": {
+    "status": "PASS",
+    "spoiler": "PASS",
+    "rights": "PASS",
+    "policy": "PASS",
+    "bias": "PASS",
+    "factual_consistency": "PASS",
+    "accessibility": "PASS",
+    "source_accuracy": "PASS"
+  },
+  "warnings": [
+    "Synthetic evaluation package; final rendered media requires human editorial review.",
+    "No unsupported scenes, dialogue or story facts are introduced by the planner."
+  ],
+  "assumptions": [
+    "Supplied episode scene descriptions and subtitle tracks are authoritative for replay mode.",
+    "Final promotional use remains subject to supplied contracts and human legal approval.",
+    "Voice-over and text-card content are omitted unless explicitly grounded in source material."
+  ],
+  "human_approvals": [
+    "Editorial approval of final trailer sequence.",
+    "Legal/rights approval of actors, music and promotional usage.",
+    "Cultural/editorial approval for dialect-region localization."
+  ],
+  "cost": {
+    "currency": "USD",
+    "estimated_processing_cost": 0.22,
+    "budget_limit": 2.0,
+    "budget_remaining": 1.78,
+    "within_budget": true,
+    "lower_cost_fallback": "Use replay-mode deterministic planning and cache the story analysis; skip repair calls unless validation fails."
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "episode_id": "EP001",
+  "title": "The Last Lantern",
+  "duration_seconds": 780,
+  "source_type": "synthetic_demo_episode",
+  "note": "Synthetic evaluation package created because the assignment brief was supplied without the actual episode package.",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "start": "00:00:00.000",
+      "end": "00:01:08.000",
+      "description": "Asha and her younger brother Ravi prepare lanterns for the village festival.",
+      "characters": [
+        "Asha",
+        "Ravi",
+        "Meera"
+      ],
+      "emotion": "warmth",
+      "spoiler_level": 0,
+      "frightening_score": 0.0,
+      "suggestive": false,
+      "sensitive_content": false,
+      "themes": [
+        "family",
+        "festival",
+        "community"
+      ]
+    },
+    {
+      "scene_id": "scene_02",
+      "start": "00:01:08.000",
+      "end": "00:02:14.000",
+      "description": "Asha notices that the old festival lantern is missing and asks Ravi whether he moved it.",
+      "characters": [
+        "Asha",
+        "Ravi"
+      ],
+      "emotion": "curiosity",
+      "spoiler_level": 0,
+      "frightening_score": 0.05,
+      "suggestive": false,
+      "sensitive_content": false,
+      "themes": [
+        "mystery",
+        "siblings"
+      ]
+    },
+    {
+      "scene_id": "scene_03",
+      "start": "00:02:14.000",
+      "end": "00:03:20.000",
+      "description": "Ravi jokes that the lantern may have walked away, while Asha becomes increasingly suspicious.",
+      "characters": [
+        "Asha",
+        "Ravi"
+      ],
+      "emotion": "humour",
+      "spoiler_level": 0,
+      "frightening_score": 0.05,
+      "suggestive": false,
+      "sensitive_content": false,
+      "themes": [
+        "humour",
+        "mystery"
+      ]
+    },
+    {
+      "scene_id": "scene_04",
+      "start": "00:03:20.000",
+      "end": "00:04:42.000",
+      "description": "Asha follows faint lantern light toward an abandoned storage house near the festival grounds.",
+      "characters": [
+        "Asha"
+      ],
+      "emotion": "tension",
+      "spoiler_level": 1,
+      "frightening_score": 0.35,
+      "suggestive": false,
+      "sensitive_content": false,
+      "themes": [
+        "mystery",
+        "discovery"
+      ]
+    },
+    {
+      "scene_id": "scene_05",
+      "start": "00:04:42.000",
+      "end": "00:05:56.000",
+      "description": "Inside the storage house, Asha finds an old photograph connecting Meera to the lantern's history.",
+      "characters": [
+        "Asha",
+        "Meera"
+      ],
+      "emotion": "surprise",
+      "spoiler_level": 2,
+      "frightening_score": 0.15,
+      "suggestive": false,
+      "sensitive_content": false,
+      "themes": [
+        "family_history",
+        "revelation"
+      ]
+    },
+    {
+      "scene_id": "scene_06",
+      "start": "00:05:56.000",
+      "end": "00:07:08.000",
+      "description": "Asha confronts Meera about the photograph; Meera refuses to explain what happened years ago.",
+      "characters": [
+        "Asha",
+        "Meera"
+      ],
+      "emotion": "conflict",
+      "spoiler_level": 1,
+      "frightening_score": 0.1,
+      "suggestive": false,
+      "sensitive_content": false,
+      "themes": [
+        "identity",
+        "family_conflict"
+      ]
+    },
+    {
+      "scene_id": "scene_07",
+      "start": "00:07:08.000",
+      "end": "00:08:24.000",
+      "description": "Ravi interrupts the argument and reveals that he moved the lantern to protect it from rain.",
+      "characters": [
+        "Asha",
+        "Ravi",
+        "Meera"
+      ],
+      "emotion": "relief",
+      "spoiler_level": 2,
+      "frightening_score": 0.0,
+      "suggestive": false,
+      "sensitive_content": false,
+      "themes": [
+        "family",
+        "misunderstanding"
+      ]
+    },
+    {
+      "scene_id": "scene_08",
+      "start": "00:08:24.000",
+      "end": "00:09:42.000",
+      "description": "The family returns to the festival and prepares to light the lantern together.",
+      "characters": [
+        "Asha",
+        "Ravi",
+        "Meera"
+      ],
+      "emotion": "hope",
+      "spoiler_level": 1,
+      "frightening_score": 0.0,
+      "suggestive": false,
+      "sensitive_content": false,
+      "themes": [
+        "family",
+        "community",
+        "hope"
+      ]
+    },
+    {
+      "scene_id": "scene_09",
+      "start": "00:09:42.000",
+      "end": "00:11:00.000",
+      "description": "Meera tells Asha the full truth about why the lantern was preserved; this explains the episode's central mystery.",
+      "characters": [
+        "Asha",
+        "Meera"
+      ],
+      "emotion": "revelation",
+      "spoiler_level": 3,
+      "frightening_score": 0.05,
+      "suggestive": false,
+      "sensitive_content": false,
+      "themes": [
+        "truth",
+        "family_history",
+        "central_twist"
+      ]
+    },
+    {
+      "scene_id": "scene_10",
+      "start": "00:11:00.000",
+      "end": "00:13:00.000",
+      "description": "The lantern is lit during the festival as the family reconciles and the community celebrates.",
+      "characters": [
+        "Asha",
+        "Ravi",
+        "Meera"
+      ],
+      "emotion": "resolution",
+      "spoiler_level": 3,
+      "frightening_score": 0.0,
+      "suggestive": false,
+      "sensitive_content": false,
+      "themes": [
+        "resolution",
+        "family",
+        "festival"
+      ]
+    }
+  ]
+}

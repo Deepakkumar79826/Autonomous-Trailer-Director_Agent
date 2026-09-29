@@ -1,0 +1,216 @@
+{
+  "episode_id": "EP001",
+  "title": "The Last Lantern",
+  "characters": [
+    {
+      "name": "Asha",
+      "evidence": [
+        "scene_01",
+        "scene_02",
+        "scene_03",
+        "scene_04",
+        "scene_05",
+        "scene_06",
+        "scene_07",
+        "scene_08",
+        "scene_09",
+        "scene_10"
+      ]
+    },
+    {
+      "name": "Meera",
+      "evidence": [
+        "scene_01",
+        "scene_05",
+        "scene_06",
+        "scene_07",
+        "scene_08",
+        "scene_09",
+        "scene_10"
+      ]
+    },
+    {
+      "name": "Ravi",
+      "evidence": [
+        "scene_01",
+        "scene_02",
+        "scene_03",
+        "scene_07",
+        "scene_08",
+        "scene_10"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "subject": "Asha",
+      "relation": "sibling_of",
+      "object": "Ravi",
+      "evidence": [
+        "scene_01",
+        "scene_02",
+        "scene_07",
+        "scene_08"
+      ]
+    },
+    {
+      "subject": "Asha",
+      "relation": "family_relationship_with",
+      "object": "Meera",
+      "evidence": [
+        "scene_01",
+        "scene_05",
+        "scene_06",
+        "scene_09"
+      ]
+    },
+    {
+      "subject": "Ravi",
+      "relation": "family_relationship_with",
+      "object": "Meera",
+      "evidence": [
+        "scene_01",
+        "scene_07",
+        "scene_08"
+      ]
+    }
+  ],
+  "major_events": [
+    {
+      "event_id": "event_01",
+      "description": "The old festival lantern is discovered to be missing.",
+      "scene_id": "scene_02",
+      "spoiler_level": 0
+    },
+    {
+      "event_id": "event_02",
+      "description": "Asha finds an old photograph connecting Meera to the lantern's history.",
+      "scene_id": "scene_05",
+      "spoiler_level": 2
+    },
+    {
+      "event_id": "event_03",
+      "description": "Asha confronts Meera about the photograph.",
+      "scene_id": "scene_06",
+      "spoiler_level": 1
+    },
+    {
+      "event_id": "event_04",
+      "description": "Ravi reveals that he moved the lantern to protect it from rain.",
+      "scene_id": "scene_07",
+      "spoiler_level": 2
+    },
+    {
+      "event_id": "event_05",
+      "description": "Meera tells Asha the full truth about the lantern's history.",
+      "scene_id": "scene_09",
+      "spoiler_level": 3
+    },
+    {
+      "event_id": "event_06",
+      "description": "The family reconciles and lights the lantern at the festival.",
+      "scene_id": "scene_10",
+      "spoiler_level": 3
+    }
+  ],
+  "emotional_turns": [
+    {
+      "scene_id": "scene_01",
+      "emotion": "warmth",
+      "evidence": [
+        "scene_01"
+      ]
+    },
+    {
+      "scene_id": "scene_02",
+      "emotion": "curiosity",
+      "evidence": [
+        "scene_02"
+      ]
+    },
+    {
+      "scene_id": "scene_03",
+      "emotion": "humour",
+      "evidence": [
+        "scene_03"
+      ]
+    },
+    {
+      "scene_id": "scene_04",
+      "emotion": "tension",
+      "evidence": [
+        "scene_04"
+      ]
+    },
+    {
+      "scene_id": "scene_05",
+      "emotion": "surprise",
+      "evidence": [
+        "scene_05"
+      ]
+    },
+    {
+      "scene_id": "scene_06",
+      "emotion": "conflict",
+      "evidence": [
+        "scene_06"
+      ]
+    },
+    {
+      "scene_id": "scene_07",
+      "emotion": "relief",
+      "evidence": [
+        "scene_07"
+      ]
+    },
+    {
+      "scene_id": "scene_08",
+      "emotion": "hope",
+      "evidence": [
+        "scene_08"
+      ]
+    },
+    {
+      "scene_id": "scene_09",
+      "emotion": "revelation",
+      "evidence": [
+        "scene_09"
+      ]
+    },
+    {
+      "scene_id": "scene_10",
+      "emotion": "resolution",
+      "evidence": [
+        "scene_10"
+      ]
+    }
+  ],
+  "protected_spoilers": [
+    {
+      "spoiler_id": "spoiler_01",
+      "description": "The full truth about why the lantern was preserved.",
+      "scene_ids": [
+        "scene_09",
+        "scene_10"
+      ],
+      "level": 3
+    },
+    {
+      "spoiler_id": "spoiler_02",
+      "description": "Ravi was responsible for moving the lantern to protect it from rain.",
+      "scene_ids": [
+        "scene_07"
+      ],
+      "level": 2
+    },
+    {
+      "spoiler_id": "spoiler_03",
+      "description": "The old photograph reveals a connection between Meera and the lantern's history.",
+      "scene_ids": [
+        "scene_05"
+      ],
+      "level": 2
+    }
+  ],
+  "sensitive_content": []
+}

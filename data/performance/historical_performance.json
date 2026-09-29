@@ -1,0 +1,25 @@
+{
+  "note": "Synthetic historical campaign data. It may generate hypotheses but must not override current episode evidence.",
+  "historical_scene_engagement": [
+    {
+      "scene_id": "scene_05",
+      "engagement_score": 0.97,
+      "spoiler_level": 2
+    },
+    {
+      "scene_id": "scene_03",
+      "engagement_score": 0.91,
+      "spoiler_level": 0
+    },
+    {
+      "scene_id": "scene_08",
+      "engagement_score": 0.86,
+      "spoiler_level": 1
+    },
+    {
+      "scene_id": "scene_06",
+      "engagement_score": 0.83,
+      "spoiler_level": 1
+    }
+  ]
+}
